@@ -1,0 +1,172 @@
+/*
+Project Name: Week 2 assignment-landing page
+Client: Relaxr
+Author: Michelle O'Connor
+Developer @GA in London
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*font weights
+100    Extra Light or Ultra Light
+200    Light or Thin
+300    Book or Demi
+400    Normal or Regular
+500    Medium
+600    Semibold, Demibold
+700    Bold
+800    Black, Extra Bold or Heavy
+900    Extra Black, Fat, Poster or Ultra Black*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+	font-size: 12px;
+	line-height: 1.4;
+	font-color:#606161;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  height: 500px;
+
+}
+
+header{}
+	
+
+body
+.intro {
+	background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+	background-size: cover;
+}
+.logo {
+	font-weight:900;
+	font-size:24px;
+	text-align: center;	}
+h2	  {
+	font-weight:600;
+	font-size:24px;
+	text-align: center;
+	padding: 50px;
+}
+h4	{
+	font-weight:600;
+	font-size:20px;
+	text-align:center;
+	margin:auto;
+	padding:20px;
+}
+
+.benefits p
+	{
+	font-weight:200;
+	font-size:13px;
+	text-align:center;
+	margin:auto;
+	display:block;
+	padding:20px;
+	}
+.benefits ul{
+	font-weight:200;
+	font-size:13px;
+	text-align:center;
+	margin:auto;
+	display:block;
+	padding:15px;
+}
+
+.button{
+	border-radius:5px;
+	text-align:center;
+	margin:auto;
+	display:block;
+	width:50%;
+	padding:15px;
+	font-size:14px;
+	font-weight:900;
+
+}
+.yellow{
+	background:#f9e42e;
+	color:#033048;
+}
+
+.blue{
+	background:#033048;
+	color:#f9e42e;
+	}
+
+
+.quote h1{
+	font-size:18px;
+	font-style:italic;
+	font-weight:200;
+	text-align: center;
+}
+
+.quote p{
+	font-weight:600;
+	font-size: 18px;
+	text-align: center;
+}
+	
+.copyright {
+	font-weight:600;
+	font-size: 9px;
+	text-align: center;
+	}
+
+
+
+
+footer 
+{}
+
+
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
